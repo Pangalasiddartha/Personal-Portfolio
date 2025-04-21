@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <!-- Home Page -->
+    <div id="home" class="page animate__animated animate__fadeIn">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="animate__delay-1s">Explore my work, skills, and more!</p>
+        <div class="links-container ">
+            <div class="resume">
+              <a href="https://docs.google.com/document/d/17Vuto0EYlV-wDv0ss3Zq7VvtP1TdVDfA/preview" target="_blank">
+                <button>📄Resume</button>
+              </a>
+            </div>
+          
+            <div class="github">
+              <a href="https://github.com/Pangalasiddartha" target="_blank">
+                <button>💻 GitHub</button>
+              </a>
+            </div>
+          
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/in/pangala-siddartha-048187360" target="_blank">
+                <button>🔗 LinkedIn</button>
+              </a>
+            </div>
+          </div>
+          
+            
+    </div>
+
+    <!-- About Page -->
+     <div id="about" class="about-section animate__animated animate__fadeIn">
+        <h1>About Me</h1>
+        <img src="myImg.jpg" alt="my image" class="profile-img animate__animated animate__fadeIn animate__delay-1s">
+            <p class="animate__delay-1s"> Hi, I'm  <strong>Siddartha </strong>from <b>Tirupati.</b> I completed my <strong>B.Tech</strong> in <strong>Electronics and Communication Engineering </strong>from <strong>Sri Venkatesa Perumal College of Engineering and Technology, Puttur</strong>. I’m passionate about technology and always eager to learn and grow in the field of web development.
+
+        </p>
+    </div>
+
+    <!-- Skills Page -->
+    <div id="skills" class="page animate__animated animate__fadeIn">
+        <h1>Skills</h1> 
+        <div class="skills-section">
+            <!-- Skill cards here -->
+            <div class="skill-card animate__animated animate__fadeIn animate__delay-1s">
+                <h3>HTML</h3>
+                <p>Building semantic and accessible websites using HTML5.</p>
+            </div>
+            <div class="skill-card animate__animated animate__fadeIn animate__delay-1.5s">
+                <h3>CSS</h3>
+                <p>Stylish and responsive layouts with CSS3 and Flexbox.</p>
+            </div>
+            <div class="skill-card animate__animated animate__fadeIn animate__delay-2s">
+                <h3>JavaScript</h3>
+                <p>Dynamic interactions with JavaScript, including ES6+ features.</p>
+            </div>
+            <div class="skill-card animate__animated animate__fadeIn animate__delay-2.5s">
+                <h3>React</h3>
+                <p>Building modern web apps with ReactJS and hooks.</p>
+            </div>
+            <div class="skill-card animate__animated animate__fadeIn animate__delay-3s">
+                <h3>Git</h3>
+                <p>Version control and collaboration using Git and GitHub.</p>
+            </div>
+        </div>
+    </div>
+
+             </div>
+
+        </div>
+    </div>
+
+         <!-- Projects Page -->
+<div id="projects" class="page animate__animated animate__fadeIn">
+    <h1>My Projects</h1>
+    
+    <!-- Project 1 -->
+    <div class="project-card" onclick="toggleDetails('project1-details')">
+        <h3>Portfolio Website</h3>
+        <p>Modern and responsive portfolio using HTML, CSS, and JS</p>
+        <div id="project1-details" class="project-details">
+            <p>This is the website you’re viewing now! Built using clean HTML structure, custom CSS animations, and JavaScript for interactivity.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <p><a href="https://github.com/Pangalasiddartha/personal-portfolio" target="_blank"> GitHub Repo</a></p>
+            
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card" onclick="toggleDetails('project2-details')">
+        <h3>Weather App</h3>
+        <p>Displays real-time weather using OpenWeatherMap API</p>
+        <div id="project2-details" class="project-details">
+            <p>This weather application fetches and displays current weather data for any city using the OpenWeatherMap API.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, API</p>
+            <p><a href="https://pangalasiddartha.github.io/Weather-Application/" target="_blank">GitHub Repo</a></p>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page animate__animated animate__fadeIn">
+        <h1>Contact Me</h1>
+        <div class="info">
+        <p>Email:pangalasiddarth@gmail.com</p>
+        <p>LinkedIn: <a href= "https://www.linkedin.com/in/pangala-siddartha-048187360" target="_blank">Linkedin.com/in/Pangalasiddartha</a></p>
+       </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Pangala Siddartha</p>
+    </footer>
+
+    <!-- External script -->
+    <script src="script.js"></script>
+</body>
+</html>
