@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: black;
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -90,7 +90,7 @@ h1 {
   
   button:hover {
     transform: scale(1.05);
-    background-color: skyblue;
+    background-color: #ffcb00;
   }
   
 .about-section {
