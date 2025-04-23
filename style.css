@@ -53,10 +53,6 @@ nav ul li a:hover {
 }
 
 .page {   
-    background-image: url("BG2\ \(1\).jpg"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     padding: 2rem;
     min-height: 100vh;
     display: flex;
@@ -137,10 +133,12 @@ h1 {
   }
 
   .about-section p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.8;
     color: whitesmoke;
-    max-width: 700px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: 50px;
   }
 
 /* Skills Section */
